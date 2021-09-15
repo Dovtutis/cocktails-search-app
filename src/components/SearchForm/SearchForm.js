@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { useGlobalContext } from "../context";
+import { useGlobalContext } from "../../context/context";
 
 import "./SearchForm.css";
 

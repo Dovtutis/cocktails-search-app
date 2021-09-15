@@ -6,7 +6,7 @@ import "./Cocktail.css";
 const Cocktail = ({ image, name, id, info, glass }) => {
   return (
     <div className='cocktail'>
-      <div class='img-container'>
+      <div className='img-container'>
         <img src={image} alt={name} />
       </div>
       <div className='cocktail-footer'>
